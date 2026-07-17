@@ -2,6 +2,9 @@ name: Publish Extension
 
 on:
   workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
   publish:
@@ -12,3 +15,33 @@ jobs:
 
       - name: Zip Chrome extension
         run: zip -r chrome.zip src
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Checkout or create build branch
+        run: |
+          git fetch origin build 2>/dev/null || true
+          if git rev-parse --verify origin/build > /dev/null 2>&1; then
+            git checkout build
+          else
+            git checkout -b build
+          fi
+
+      - name: Copy zip to build branch
+        run: |
+          mkdir -p builds
+          cp chrome.zip builds/chrome-${{ github.run_number }}.zip
+          cp chrome.zip builds/chrome-latest.zip
+
+      - name: Commit and push to build branch
+        run: |
+          git add builds/
+          git commit -m "Auto-build: Chrome extension zip (commit: ${{ github.sha }})" || echo "Nothing to commit"
+          git push origin build
+
+      - name: Return to main branch
+        if: always()
+        run: git checkout main
