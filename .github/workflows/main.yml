@@ -12,13 +12,3 @@ jobs:
 
       - name: Zip Chrome extension
         run: zip -r chrome.zip src
-
-      - name: Publish to stores
-        uses: PlasmoHQ/bpp@v3
-        with:
-          keys: ${{ secrets.EXTENSION_KEYS }}
-          chrome-file: chrome.zip
-          edge-file: chrome.zip
-          edge-notes: "Add redirection for new sites"
-          version-file: "src/manifest.json"
-          verbose: true
