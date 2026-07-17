@@ -1,38 +1,37 @@
 <div align="center">
-<img src="assets/icon.svg" height="90" alt="Predirect logo">
-<h1>Predirect</h1>
-<h3>A manifest v3 web extension with minimal permissions that automatically redirects popular sites to privacy friendly frontends</h3>
+<img src="assets/icon.svg" height="90" alt="nice-redirect logo">
+<h1>Nice Redirect</h1>
 
-<a href="https://chromewebstore.google.com/detail/predirect/aiillidfcgfckfhkpiakhkkpbkknagnp"><img src = "assets/chrome.png" alt="Available in the Chrome Web Store" height="60">
+<a href="https://chromewebstore.google.com/detail/nice-redirect/123"><img src = "assets/chrome.png" alt="Available in the Chrome Web Store" height="60">
 </a>
-<a href="https://addons.mozilla.org/en-US/firefox/addon/predirector/"><img src = "assets/mozilla.svg" alt="Get the addon firefox" height="60">
+<a href="https://addons.mozilla.org/en-US/firefox/addon/nice-redirector/"><img src = "assets/mozilla.svg" alt="Get the addon firefox" height="60">
 </a>
-<a href="https://microsoftedge.microsoft.com/addons/detail/predirect/meehajiemfkahmhbemddchfhafmjcnij"><img src = "assets/edge.svg" alt="Get the addon Microsoft Edge" height="60">
+<a href="https://microsoftedge.microsoft.com/addons/detail/nice-redirect/123"><img src = "assets/edge.svg" alt="Get the addon Microsoft Edge" height="60">
 </a>
 
-[![GitHub Repo stars](https://img.shields.io/github/stars/libreom/predirect?style=social)](https://github.com/libreom/predirect/stargazers)
-[![GitHub License](https://img.shields.io/github/license/libreom/predirect?style=social)](./COPYING)
+[![GitHub Repo stars](https://img.shields.io/github/stars/code-fanatic/nice-redirect?style=social)](https://github.com/code-fanatic/nice-redirect/stargazers)
+[![GitHub License](https://img.shields.io/github/license/code-fanatic/nice-redirect?style=social)](./COPYING)
 
 </div>
 
-- Works in [Firefox for Android](https://addons.mozilla.org/en-US/android/addon/predirector/)
+- Also in [Firefox for Android](https://addons.mozilla.org/en-US/android/addon/nice-redirector/)
 
 ## Redirects
 
 | From                                                   | To                                                                                                                                                               |
 | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Google](https://www.google.com)                       | [SearXNG](https://github.com/searxng/searxng)                                                                                                                    |
 | [YouTube](https://youtube.com) (Links & embeds)        | [Piped](https://github.com/TeamPiped/Piped), [Invidious](https://github.com/iv-org/invidious)                                                                    |
-| [𝕏](https://twitter.com)                               | [Nitter](https://github.com/zedeus/nitter)                                                                                                                       |
+| [YouTube Music](https://music.youtube.com//)           | [Beatbump](https://github.com/snuffyDev/Beatbump), [Hyperpipe](https://codeberg.org/Hyperpipe/Hyperpipe)                                                         |
+| [Instagram](https://www.instagram.com/)                | [Proxigram](https://codeberg.org/ThePenguinDev/proxigram)                                                                                                        |
+| [X](https://twitter.com)                               | [Nitter](https://github.com/zedeus/nitter)                                                                                                                       |
 | [Reddit](https://reddit.com)                           | [redlib](https://github.com/redlib-org/redlib)                                                                                                                   |
-| [Search](https://www.google.com)                       | [SearXNG](https://github.com/searxng/searxng)                                                                                                                    |
 | [Medium](https://medium.com)                           | [Scribe](https://sr.ht/~edwardloveall/Scribe/), [LibMedium](https://github.com/realaravinth/libmedium), [medium.rip](https://github.com/SphericalKat/medium.rip) |
 | [TikTok](https://tiktok.com)                           | [ProxiTok](https://github.com/pablouser1/ProxiTok)                                                                                                               |
 | [Quora](https://quora.com)                             | [Quetre](https://github.com/zyachel/quetre)                                                                                                                      |
-| [Instagram](https://www.instagram.com/)                | [Proxigram](https://codeberg.org/ThePenguinDev/proxigram)                                                                                                        |
 | [Fandom](https://www.fandom.com/)                      | [Breezewiki](https://gitdab.com/cadence/breezewiki)                                                                                                              |
 | [IMDb](https://www.imdb.com//)                         | [libremdb](https://github.com/zyachel/libremdb)                                                                                                                  |
 | [Genius](https://genius.com)                           | [Dumb](https://github.com/rramiachraf/dumb)                                                                                                                      |
-| [YouTube Music](https://music.youtube.com//)           | [Beatbump](https://github.com/snuffyDev/Beatbump), [Hyperpipe](https://codeberg.org/Hyperpipe/Hyperpipe)                                                         |
 | [Goodreads](https://www.goodreads.com/)                | [BiblioReads](https://github.com/nesaku/BiblioReads)                                                                                                             |
 | [Imgur](https://imgur.com/)                            | [Rimgo](https://codeberg.org/rimgo/rimgo)                                                                                                                        |
 | [Translate](https://translate.google.com/)             | [Mozhi](https://codeberg.org/aryak/mozhi)                                                                                                                        |
@@ -49,7 +48,3 @@
 | [WolframAlpha](https://www.wolframalpha.com/)          | [Wolfree](https://codeberg.org/wolfree/wolfree-dockerfile)                                                                                                       |
 | [Reuters](https://reuters.com/)                        | [Neuters](https://github.com/HookedBehemoth/neuters)                                                                                                             |
 | [Snopes](https://reuters.com/)                         | [Suds](https://git.vern.cc/cobra/Suds)                                                                                                                           |
-
-## Attribution
-
-Icon modified from u-turn by Creative Stall from [Noun Project](https://thenounproject.com/browse/icons/term/u-turn/) (CC BY 3.0)

@@ -1,8 +1,3 @@
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
 html,
 body,
 div,
@@ -127,7 +122,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/*----------------------------------------------------------------------------------------------------*/
+/*-----------------------*/
 :root {
   --font-size: 1.25rem;
   --line-height: 1.35;
@@ -137,19 +132,16 @@ table {
   --background-color: #ffffff;
   --primary-color: #4385be;
   --red-color: #af3029;
-  --green-color: #3bb273;
-}
+  --green-color: #3bb273;}
 @media (prefers-color-scheme: dark) {
   :root {
     --text-color: #d1d1d1;
     --button-text-color: #fff;
     --background-color: #0e0e0f;
-  }
-}
-/*----------------------------------------------------------------------------------------------------*/
+  } }
+/*-----------------------*/
 html {
-  -webkit-tap-highlight-color: transparent;
-}
+  -webkit-tap-highlight-color: transparent;}
 body {
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -164,59 +156,47 @@ body {
   -webkit-tap-highlight-color: transparent;
   overflow-x: hidden;
   scrollbar-width: thin;
-  overflow-y: auto;
-}
-/*----------------------------------------------------------------------------------------------------*/
+  overflow-y: auto;}
+/*-----------------------*/
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-  outline: none;
-}
-/*----------------------------------------------------------------------------------------------------*/
+  outline: none;}
+/*-----------------------*/
 .wrapper {
-  max-width: 550px;
+  max-width: 220px;
   margin: 0 auto;
   margin-top: calc(var(--font-size) * var(--line-height) * 3);
-  padding: 0 var(--font-size);
-}
+  padding: 0 var(--font-size);}
 @media (pointer: none), (pointer: coarse) {
-  .wrapper {
-    margin-top: calc(var(--font-size) * var(--line-height) * 2);
-  }
-}
+  .wrapper { margin-top: calc(var(--font-size) * var(--line-height) * 2); } }
 p + p {
-  margin-bottom: calc(var(--font-size) * var(--line-height) * 1);
-}
-/*----------------------------------------------------------------------------------------------------*/
+  margin-bottom: calc(var(--font-size) * var(--line-height) * 1);}
+/*-----------------------*/
 a:link,
 a:visited {
   outline: none;
   text-decoration: none;
   color: var(--primary-color);
   -webkit-tap-highlight-color: transparent;
-  position: relative;
-}
+  position: relative;}
 a:hover {
-  opacity: 50%;
-}
-/*----------------------------------------------------------------------------------------------------*/
+  opacity: 50%;}
+/*-----------------------*/
 h1 {
   font-size: 140%;
   font-weight: 900;
-  margin-bottom: calc(var(--font-size) * var(--line-height) * 2);
-}
-/*----------------------------------------------------------------------------------------------------*/
+  margin-bottom: calc(var(--font-size) * var(--line-height) * 2);}
+/*-----------------------*/
 ul {
   column-count: 1;
   list-style-type: none;
   margin: calc(var(--font-size) * var(--line-height)) 0;
-  line-height: var(--list-line-height);
-}
+  line-height: var(--list-line-height);}
 ul li {
   position: relative;
-  break-inside: avoid;
-}
+  break-inside: avoid;}
 .request {
   font-size: calc(var(--font-size) * 0.9);
   font-size: 75%;
@@ -235,8 +215,6 @@ ul li {
   white-space: nowrap;
   user-select: none;
   -webkit-user-select: none;
-  touch-action: manipulation;
-}
+  touch-action: manipulation;}
 .request:hover {
-  opacity: 75%;
-}
+  opacity: 75%;}

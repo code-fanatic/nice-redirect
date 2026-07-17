@@ -89,8 +89,7 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
-  vertical-align: baseline;
-}
+  vertical-align: baseline;}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -102,32 +101,22 @@ header,
 hgroup,
 menu,
 nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
+section { display: block;}
+body { line-height: 1;}
 ol,
-ul {
-  list-style: none;
-}
+ul { list-style: none;}
 blockquote,
-q {
-  quotes: none;
-}
+q { quotes: none; }
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
   content: "";
-  content: none;
-}
+  content: none;}
 table {
   border-collapse: collapse;
-  border-spacing: 0;
-}
-/*----------------------------------------------------------------------------------------------------*/
+  border-spacing: 0;}
+/*-----------------------*/
 :root {
   --font-size: 1rem;
   --line-height: 1.35;
@@ -135,20 +124,17 @@ table {
   --background-color: #ffffff;
   --primary-color: #4385be;
   --input-border-color: #eee;
-  --input-placeholder-color: #aaa;
-}
+  --input-placeholder-color: #aaa;}
 @media (prefers-color-scheme: dark) {
   :root {
     --text-color: #d1d1d1;
     --background-color: #0e0e0f;
     --input-border-color: #222;
     --input-placeholder-color: #444;
-  }
-}
-/*----------------------------------------------------------------------------------------------------*/
+  }}
+/*-----------------------*/
 html {
-  -webkit-tap-highlight-color: transparent;
-}
+  -webkit-tap-highlight-color: transparent;}
 body {
   font-weight: 400;
   text-rendering: optimizeLegibility;
@@ -163,32 +149,27 @@ body {
   width: 100%;
   overflow-x: hidden;
   scrollbar-width: thin;
-  overflow-y: auto;
-}
+  overflow-y: auto;}
 
 input:focus,
 select:focus,
 textarea:focus,
 button:focus {
-  outline: none;
-}
-/*----------------------------------------------------------------------------------------------------*/
+  outline: none;}
+/*-----------------------*/
 body {
-  margin: 0.5rem;
-}
-/*----------------------------------------------------------------------------------------------------*/
+  margin: 0.5rem;}
+/*-----------------------*/
 h2 {
   font-size: 150%;
   font-weight: 900;
-  margin-bottom: calc(var(--font-size) * var(--line-height) * 1);
-}
-/*----------------------------------------------------------------------------------------------------*/
+  margin-bottom: calc(var(--font-size) * var(--line-height) * 1);}
+/*-----------------------*/
 label {
   line-height: var(--line-height);
   display: flex;
   align-items: center;
-  margin-bottom: calc(var(--font-size) * 0.5);
-}
+  margin-bottom: calc(var(--font-size) * 0.5);}
 input[type="checkbox"] {
   margin-right: calc(var(--font-size) * 0.5);
   vertical-align: baseline;
@@ -203,12 +184,10 @@ input[type="checkbox"] {
   cursor: pointer;
   outline: none;
   -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
+  transition: all 0.2s ease-in-out;}
 
 input[type="checkbox"]:checked {
-  background: var(--primary-color);
-}
+  background: var(--primary-color);}
 
 input[type="checkbox"]:after {
   position: absolute;
@@ -223,13 +202,12 @@ input[type="checkbox"]:after {
   transform: scale(0.7);
   left: 0;
   -webkit-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out;
-}
+  transition: all 0.2s ease-in-out;}
 
 input[type="checkbox"]:checked:after {
   left: calc(100% - 1.5em);
 }
-/*----------------------------------------------------------------------------------------------------*/
+/*-----------------------*/
 input[type="text"] {
   margin-left: calc(var(--font-size) * 0.5);
   margin-bottom: calc(var(--font-size) * 0.5);
@@ -239,8 +217,6 @@ input[type="text"] {
   border-radius: 4px;
   padding: 1px 3px;
   color: var(--primary-color);
-  background-color: var(--background-color);
-}
+  background-color: var(--background-color);}
 input[type="text"]::placeholder {
-  color: var(--input-placeholder-color);
-}
+  color: var(--input-placeholder-color);}
